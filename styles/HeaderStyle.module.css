@@ -1,0 +1,189 @@
+
+.warrap {
+    width: 100%;
+    background-color: #49bbbd;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    top: 20px;
+    left: 5px;
+    border-radius: 80px;
+    display: flex;
+    position: relative;
+}
+
+.header__logo {
+    width: 114px;
+    height: 83px;
+    top: 30px;
+    left: 121px;
+    padding: 5px 0;
+    margin: 5px 50px;
+}
+
+.header__text {
+    margin-top: 16px;
+    margin-right: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.header__buttom {
+    border: none;
+    border-radius: 4px;
+}
+
+.header_buttom_fist {
+    background-color: #ffffff;
+    color: #5b5b5b;
+    border: none;
+    border-radius: 30px;
+    font-weight: 200;
+    width: 150px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.header_buttom_two {
+    background-color: #7fcecf;
+    color: #ffffff;;
+    border: none;
+    border-radius: 30px;
+    font-weight: 200;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #49bbbd;
+    justify-content: space-between;
+}
+
+.body_left {
+    width: 100%;
+    height: 100vh;
+    margin: 100px 50px;
+    left: 100px;
+    border-radius: 80px;
+    justify-content: space-between;
+}
+
+.body_left-nav {
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0 20px;
+}
+
+.body_left_Stu {
+    text-decoration: none;
+    color: #F48C06;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.body_left_on {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.boby_left_text {
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+.body_left_join {
+    background-color: #7fcecf;
+    font-size: 16px;
+    width: 220px;
+    height: 80px;
+    top: 800px;
+    left: 140px;
+    border-radius: 80px;
+    color: white;
+    border: none;
+}
+
+.body__left_watch {
+    width: 400px;
+    height: 200px;
+    margin-top: -30px;
+    left: 140px;
+    border-radius: 80px;
+}
+
+.body_right {
+    width: 100%;
+    height: 100vh;
+    top: 10px;
+    margin-left: 80px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.body_right_rightt {
+    width: 350px;
+    height: 446px;
+    top: 20px;
+    position: absolute;
+
+}
+
+.body_right_group1 {
+    width: 150px;
+    height: 50px;
+    top: 100px;
+    left: -100px;
+    opacity: 1;
+    position: absolute;
+}
+
+.body_right_group2 {
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    left: 250px;
+    position: absolute;
+
+}
+
+.body_right_group3 {
+    width: 135px;
+    height: 55px;
+    top: 190px;
+    left: 205px;
+    border-radius: 20px;
+    position: absolute;
+
+}
+
+.body_right_group4 {
+    width: 145px;
+    height: 95px;
+    top: 300px;
+    left: 10px;
+    position: absolute;
+    border-radius: 20px;
+
+}
