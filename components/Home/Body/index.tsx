@@ -1,4 +1,3 @@
-import './bodyStyle.css'
 import ContainerFrame from "./ContainerFrame";
 import ContainerAll from "./ContainerAll";
 import Question from "./Question";
@@ -7,11 +6,11 @@ import MainContent from "./MainContent";
 import Extend from "./Extend";
 import ExtendTest from "./ExtendTest";
 import Lastest from "./Lastest";
-
+import styles from '../../../styles/BodyStyle.module.css'
 
 export default function Body() {
     return (
-        <div class=" container">
+        <div className={styles.container}>
             <ContainerFrame/>
             <ContainerAll/>
             <Question/>
