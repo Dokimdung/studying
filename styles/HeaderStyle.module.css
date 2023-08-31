@@ -27,9 +27,14 @@
     margin-top: 16px;
     margin-right: 20px;
     padding: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: white;
+    border: none;
+    background-color: #49BBBD;
+    cursor: pointer;
 }
+
 .header__buttom {
     border: none;
     border-radius: 4px;

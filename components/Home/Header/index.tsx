@@ -11,11 +11,11 @@ export default function Header() {
                     <img src={'/icons/logo.png'} alt="" className={styles.header__logo}/>
                 </div>
                 <div className={'mr-5'} style={{fontSize: '22px', fontWeight: '400'}}>
-                    <a href="" className={styles.header__text}> Home</a>
-                    <a href="" className={styles.header__text}> Courses</a>
-                    <a href="" className={styles.header__text}> Careers</a>
-                    <a href={'/blog'} className={styles.header__text}> Blog</a>
-                    <a href="" className={styles.header__text}> About Us</a>
+                    <button onClick={() => router.push('/')} className={styles.header__text}> Home</button>
+                    <button className={styles.header__text}> Courses</button>
+                    <button className={styles.header__text}> Careers</button>
+                    <button onClick={() => router.push('/blog')} className={styles.header__text}> Blog</button>
+                    <button className={styles.header__text}> About Us</button>
                     <button onClick={() => router.push('/login')} className={styles.header_buttom_fist}> Login</button>
                     <button onClick={() => router.push('/signup')} className={styles.header_buttom_two}> Sign Up
                     </button>
