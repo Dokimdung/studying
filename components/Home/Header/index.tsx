@@ -14,7 +14,7 @@ export default function Header() {
                     <a href="" className={styles.header__text}> Home</a>
                     <a href="" className={styles.header__text}> Courses</a>
                     <a href="" className={styles.header__text}> Careers</a>
-                    <a href="" className={styles.header__text}> Blog</a>
+                    <a href={'/blog'} className={styles.header__text}> Blog</a>
                     <a href="" className={styles.header__text}> About Us</a>
                     <button onClick={() => router.push('/login')} className={styles.header_buttom_fist}> Login</button>
                     <button onClick={() => router.push('/signup')} className={styles.header_buttom_two}> Sign Up
