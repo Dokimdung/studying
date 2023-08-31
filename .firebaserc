@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "next-studying"
+  },
+  "targets": {
+      "next-studying": {
+        "hosting": {
+          "next-studying": [
+            "next-studying"
+          ]
+        }
+      }
+    }
+}
