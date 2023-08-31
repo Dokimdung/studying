@@ -2,16 +2,16 @@ import React from 'react';
 import Footer from "@/components/Home/Footer";
 import HeaderBlog from "@/components/Blog/HeaderBlog";
 import BodyBlog from "@/components/Blog/BodyBlog";
-import Comtainer from "@/components/Blog/Comtainer";
-import Lastests from "@/components/Blog/Lastests";
+import Container from "@/components/Blog/Container";
+import LastTests from "@/components/Blog/LastTests";
 
 function Blog() {
     return (
         <div>
             <HeaderBlog/>
             <BodyBlog/>
-            <Comtainer/>
-            <Lastests/>
+            <Container/>
+            <LastTests/>
             <Footer/>
         </div>
     );

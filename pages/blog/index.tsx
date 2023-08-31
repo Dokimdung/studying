@@ -1,5 +1,6 @@
+import Blog from '@/components/Blog';
 import React from 'react';
-import Blog from "@/pages/blog/index";
+
 
 function Index() {
     return (
