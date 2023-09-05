@@ -207,21 +207,6 @@
     border-radius: 20px;
 }
 
-.square {
-    width: 50px;
-    height: 50px;
-    background: orange;
-}
-
-.circle {
-    width: 50px;
-    height: 50px;
-    background: red;
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
-    --border-radius: 25px;
-    border-radius: 25px;
-}
 
 .content {
     position: relative;

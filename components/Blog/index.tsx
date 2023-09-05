@@ -4,10 +4,12 @@ import HeaderBlog from "@/components/Blog/HeaderBlog";
 import BodyBlog from "@/components/Blog/BodyBlog";
 import Container from "@/components/Blog/Container";
 import LastTests from "@/components/Blog/LastTests";
+import Header from "@/components/Home/Header/Header";
 
 function Blog() {
     return (
         <div>
+            <Header/>
             <HeaderBlog/>
             <BodyBlog/>
             <Container/>

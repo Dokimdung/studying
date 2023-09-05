@@ -6,7 +6,7 @@ export default function Footer() {
             <div style={{display: 'flex'}} className={'flex justify-center'}>
                 <div className={'flex items-center'}>
                     <img src={'icons/logo.png'} alt={""} style={{marginTop: '50px'}}/>
-                    <div style={{border: '1px solid  white', width: 2, height: '80px', marginLeft: 20, marginTop: 50}}/>
+                    <div style={{border: '1px solid  gray', width: 2, height: '80px', marginLeft: 20, marginTop: 50}}/>
                     <h3 style={{
                         fontSize: '22px',
                         fontWeight: '600',
@@ -48,8 +48,8 @@ export default function Footer() {
                 }}> Subscribe
                 </button>
             </div>
-            <div>
-                <img src={'icons/Group 114.png'} alt={""} style={{marginTop: '50px', marginLeft: '550px'}}/>
+            <div className={" text-[#B2B3CF] text-center text-[20px]"}>
+                <p> Careers | Privacy Policy | Teems & Conditions</p>
             </div>
             <div>
                 <div

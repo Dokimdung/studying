@@ -1,18 +1,12 @@
+// import {useRouter} from "next/router";
+
+
+import {useRouter} from "next/router";
+
 export default function HeaderBlog() {
+    const router = useRouter()
     return (
         <div className={""}>
-            <div style={{display: "flex", alignItems: 'center', justifyContent: 'space-between', margin: "auto"}}>
-                <div>
-                    <img src={'/icons/logo2.png'} alt=""/>
-                </div>
-                <div className={'mr-5'} style={{fontSize: '22px'}}>
-                    <a href=""> Home</a>
-                    <a href=""> Courses</a>
-                    <a href=""> Careers</a>
-                    <a href=""> Blog</a>
-                    <a href=""> About Us</a>
-                </div>
-            </div>
             <div className={"flex bg-slate-200 justify-around m-auto "}>
                 <div className={"m-10"}>
                     <div className={"flex text-base"}>
@@ -26,7 +20,7 @@ export default function HeaderBlog() {
                         now
                     </button>
                 </div>
-                <div><img src={'icons/Group 40.png'} className={"m-5"}/></div>
+                <div><img src={'icons/Group 40.png'} className={"w-[95%] m-5"}/></div>
             </div>
         </div>
 

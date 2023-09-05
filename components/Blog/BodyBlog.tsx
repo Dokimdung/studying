@@ -32,7 +32,7 @@ function BodyBlog() {
                     blogList?.length && blogList.map((blog: any, index: number) => {
                         return (
                             <div key={index + blog.id} className={"relative "}>
-                                <img src={blog.img} className={""}/>
+                                <img src={blog.img} className={"w-[90%]"}/>
                                 <div className={'absolute top-[80%] left-[30%]'}>
                                     <button
                                         className={"cursor-pointer h-[40px] absolute bottom-0 left-0 rounded-[12px] border-none text-black bg-white/70 w-40 ml- "}>
