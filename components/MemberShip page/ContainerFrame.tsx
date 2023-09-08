@@ -23,10 +23,10 @@ function ContainerFrame() {
     return (
         <div>
             <div className={'bg-slate-200'}>
-                <div className={"flex  text-2xl ml-10"}>
+                <div className={"flex  text-2xl ml-[10%]"}>
                     <h3> What our students have to say</h3>
                 </div>
-                <div className={"flex justify-around text-center"}>
+                <div className={"flex justify-around text-center "}>
                     {
                         blogList?.length && blogList.map((blog: any, index: number) => {
                             return (
@@ -43,7 +43,7 @@ function ContainerFrame() {
                 </div>
 
             </div>
-            <div className={'flex bg-[#252641] justify-between m-14 border-solid rounded-[20px]'}>
+            <div className={'flex bg-[#252641] justify-between m-[5%] border-solid rounded-[20px]'}>
                 <h3 className={"text-white text-xl m-10"}> APP is available for free </h3>
                 <div className={' flex m-10'}>
                     <div>
