@@ -16,7 +16,9 @@ export default function HeaderBlog() {
                     Developer </h3>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/> sed do eiusmod tempos Lorem ipsum
                     dolor sitamet, <br/> consectetur adipiscing elit, sed do eiusmod tempor </p>
-                    <button className={" rounded-3xl border-none text-white bg-sky-400 w-40 h-10 "}> Start learning
+                    <button
+                        className={"bg-white hover:bg-[#49BBBD] rounded-3xl border-none text-[#49BBBD] hover:text-white w-40 h-10 "}> Start
+                        learning
                         now
                     </button>
                 </div>

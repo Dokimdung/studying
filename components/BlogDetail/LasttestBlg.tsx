@@ -1,4 +1,3 @@
-import {useRouter} from "next/router";
 import {styled} from '@mui/material/styles';
 import IconButton, {IconButtonProps} from '@mui/material/IconButton';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
@@ -21,21 +20,22 @@ const ExpandMore = styled((props: ExpandMoreProps) => {
         duration: theme.transitions.duration.shortest,
     }),
 }));
-function Container() {
+
+
+function LasttestBlg() {
     const [expanded, setExpanded] = React.useState(false);
 
     const handleExpandClick = () => {
         setExpanded(!expanded);
     };
-    const router = useRouter()
+
     return (
         <div className={" bg-slate-200 "}>
             <div className={"flex justify-between text-2xl ml-10"}>
-            <h3> Related Blog </h3>
+                <h3> Related Blog </h3>
                 <p className={"text-cyan-300 mr-10"}> See all </p>
             </div>
-            <div onClick={() => router.push('/blogdetail')}
-                 className={"flex justify-around text-gray-500  text-center  "}>
+            <div className={"flex justify-around text-gray-500  text-center  "}>
                 <div className={"bg-white p-6  m-3 border-none  rounded-3xl  shadow-[ 0px 0px 20px #262D7614] w-[45%]"}>
                     <img src={'icons/Q_B_H1.png'} className={"w-[90%]"}/>
                     <div className="m-10">
@@ -58,8 +58,7 @@ function Container() {
                         </div>
                     </div>
                 </div>
-                <div onClick={() => router.push('/blogdetail')}
-                     className={"bg-white p-6  m-3 border-none  rounded-3xl  shadow-[ 0px 0px 20px #262D7614] w-[45%]"}>
+                <div className={"bg-white p-6  m-3 border-none  rounded-3xl  shadow-[ 0px 0px 20px #262D7614] w-[45%]"}>
                     <img src={'icons/Q_B_H2.png'} className={"w-[90%]"}/>
                     <div className="m-10">
                         <p className={'text-black text-left'}> Class adds $30 million to its balance sheet for
@@ -108,4 +107,4 @@ function Container() {
     )
 }
 
-export default Container;
+export default LasttestBlg;

@@ -16,7 +16,7 @@ const Answer = () => {
                         </p>
                     <p className={styles.answer__text_read}>Learn more </p></div>
                     <div style={{margin: "30px"}}>
-                        <img src={'icons/confident-teacher-explaining-lesson-pupils 1.png'} alt={""}/>
+                        <img src={'icons/Group234.png'} alt={""}/>
                     </div>
             </div>
         </div>

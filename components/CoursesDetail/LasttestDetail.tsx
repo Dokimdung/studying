@@ -5,7 +5,7 @@ function LasttestDetail() {
                 <h3 className={"text-[30px]"}>Top Education offers and deals are listed here </h3>
                 <p className={"text-[#49BBBD] text-[30px] font-normal"}> See all </p>
             </div>
-            <div className="flex justify-around ">
+            <div className="flex justify-around m-20 ">
                 <div className="relative">
                     <div className="">
                         <img src="icons/Group 22.png" className="w-[95%]"/></div>

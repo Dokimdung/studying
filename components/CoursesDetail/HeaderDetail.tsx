@@ -66,6 +66,7 @@ function HeaderDetail() {
                                     <IconButton aria-label="share">
                                         <Avatar>KD</Avatar>
                                         <span> Kim Dung </span>
+                                        <span className='block'> <img src="icons/Group 29.png"/> </span>
                                     </IconButton>
                                     <div>
                                         <IconButton aria-label="accesstime">

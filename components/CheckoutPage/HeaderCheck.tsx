@@ -21,7 +21,7 @@ function HeaderCheck() {
                             textAlign: 'left',
                             padding: 7,
                             width: '100%',
-
+                            color: '#9D9B9B',
                         }} type="text"/>
                     <p> Card Number </p>
                     <input
@@ -32,21 +32,22 @@ function HeaderCheck() {
                             textAlign: 'left',
                             padding: 7,
                             width: '100%',
-
+                            color: '#9D9B9B',
                         }} type="text"/>
-                    <div className="flex">
-                        <div className="m-10">
+                    <div className="flex justify-between">
+                        <div className="m-2">
                             <p> Expiration Date(MM/YY) </p>
                             <input
-                                defaultValue={'Enter  Expiration Date'}
+                                defaultValue={'Enter Expiration Date'}
                                 style={{
                                     borderRadius: '10px',
                                     border: '0.5px solid #7fcecf',
                                     textAlign: 'center',
                                     padding: 7,
                                     width: '100%',
+                                    color: '#9D9B9B',
                                 }} type="text"/></div>
-                        <div className="m-10">
+                        <div className="m-2">
                             <p> CVC </p>
                             <input
                                 defaultValue={'Enter CVC '}
@@ -56,6 +57,7 @@ function HeaderCheck() {
                                     textAlign: 'center',
                                     padding: 7,
                                     width: '100%',
+                                    color: '#9D9B9B',
                                 }} type="text"/></div>
                     </div>
                 </div>
