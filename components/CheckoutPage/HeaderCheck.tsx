@@ -2,16 +2,16 @@ function HeaderCheck() {
     return (
         <div className="flex justify-around">
 
-            <div className="bg-white rounded-2xl border-none w-[40%]  m-10">
+            <div className="bg-white rounded-2xl border-none w-[50%]  m-10">
                 <div className="m-10">
                     <h3> Checkout </h3>
                     <p> Cart Type</p>
-                    <img src="icons/Group 307.png"/>
-                    <img src="icons/AMCE.png"/>
-                    <img src="icons/Visa.png"/>
-                    <img src=""/>
+                    <img src="icons/Group 307.png" className="m-5"/>
+                    <img src="icons/AMCE.png" className="m-5"/>
+                    <img src="icons/Visa.png" className="m-5"/>
+                    <img src="icons/Group 1.png" className="m-5"/>
                 </div>
-                <div className="m-10">
+                <div className="m-10 w-[90%]">
                     <p> Name on Card </p>
                     <input
                         defaultValue={'Enter name on Card'}
@@ -34,8 +34,8 @@ function HeaderCheck() {
                             width: '100%',
                             color: '#9D9B9B',
                         }} type="text"/>
-                    <div className="flex justify-between">
-                        <div className="m-2">
+                    <div className="flex  w-[100%]">
+                        <div className=" w-[50%]">
                             <p> Expiration Date(MM/YY) </p>
                             <input
                                 defaultValue={'Enter Expiration Date'}
@@ -47,7 +47,7 @@ function HeaderCheck() {
                                     width: '100%',
                                     color: '#9D9B9B',
                                 }} type="text"/></div>
-                        <div className="m-2">
+                        <div className=" ml-2 w-[50%]">
                             <p> CVC </p>
                             <input
                                 defaultValue={'Enter CVC '}
