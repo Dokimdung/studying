@@ -1,3 +1,5 @@
+import {useRouter} from "next/router";
+
 const blogList = [
     {
         id: '1',
@@ -22,6 +24,7 @@ const blogList = [
 ]
 
 function BodyBlog() {
+    const router = useRouter()
     return (
         <div className={"m-10 "}>
             <div className={""}>
@@ -31,7 +34,7 @@ function BodyBlog() {
                 {
                     blogList?.length && blogList.map((blog: any, index: number) => {
                         return (
-                            <div key={index + blog.id} className={"relative "}>
+                            <div onClick={() => router.push('/meeting')} key={index + blog.id} className={"relative "}>
                                 <img src={blog.img} className={"w-[90%]"}/>
                                 <div className={'absolute top-[80%] left-[30%]'}>
                                     <button

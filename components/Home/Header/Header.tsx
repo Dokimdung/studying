@@ -11,7 +11,7 @@ function Header() {
             </div>
             <div className={'mr-5'} style={{fontSize: '22px', fontWeight: '400'}}>
                 <button onClick={() => router.push('/')} className={styles.header__text}> Home</button>
-                <button className={styles.header__text}> Courses</button>
+                <button onClick={() => router.push('/courses')} className={styles.header__text}> Courses</button>
                 <button className={styles.header__text}> Careers</button>
                 <button onClick={() => router.push('/blog')} className={styles.header__text}> Blog</button>
                 <button onClick={() => router.push('/member')} className={styles.header__text}> About Us</button>
