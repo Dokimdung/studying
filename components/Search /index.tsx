@@ -7,6 +7,7 @@ import FrameAllSearch from "./FrameAllSearch";
 import FrameSearch from "./FrameSearch";
 import HeaderSearch from "./HeaderSearch";
 import LasttestSearch from "./LasttestSearch";
+import QuestionSearch from "./QuestionSearch";
 
 function Search() {
     return (
@@ -18,6 +19,7 @@ function Search() {
             <FrameSearch/>
             <CardSearch/>
             <FrameAllSearch/>
+            <QuestionSearch/>
             <LasttestSearch/>
             <Footer/>
         </div>

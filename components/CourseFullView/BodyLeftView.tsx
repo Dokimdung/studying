@@ -119,6 +119,154 @@ function BodyLeftView() {
                     </div>
                     <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
                 </div>
+
+                <h3>PRACTICE QUIZ </h3>
+                <div className="flex justify-around bg-[#EE645B4D] rounded-xl m-2  ">
+                    <div onClick={() => router.push('/calendar')} className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#9DCCFF4D] rounded-xl m-2   ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#F48C064D] rounded-xl m-2 ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#9DCCFF4D] rounded-xl m-2 ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#EE645B4D] rounded-xl m-2  ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#9DCCFF4D] rounded-xl m-2   ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#F48C064D] rounded-xl m-2 ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#9DCCFF4D] rounded-xl m-2 ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#EE645B4D] rounded-xl m-2  ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#F48C064D] rounded-xl m-2  ">
+                    <div onClick={() => router.push('/calendar')} className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#9DCCFF4D] rounded-xl m-2   ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#F48C064D] rounded-xl m-2 ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#9DCCFF4D] rounded-xl m-2 ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#EE645B4D] rounded-xl m-2  ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#9DCCFF4D] rounded-xl m-2   ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#F48C064D] rounded-xl m-2 ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#9DCCFF4D] rounded-xl m-2 ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+                <div className="flex justify-around bg-[#EE645B4D] rounded-xl m-2  ">
+                    <div className="flex"><IconButton>
+                        <ImportContactsIcon className="text-black"/>
+                    </IconButton>
+                        <p className="text-[16px] text-[#252641]"> Lesson 01 : Introduction about XD</p>
+                    </div>
+                    <div><p className="text-[16px] text-[#252641]"> 30 mins</p></div>
+                </div>
+
+
             </div>
         </div>
 
